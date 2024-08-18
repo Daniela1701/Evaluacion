@@ -1,33 +1,82 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import imagen from './image/logo.jpg'
+import portada from './image/portada.jpg'
+import cusco from './image/cusco.jpg'
+import arequipa from './image/arequipa.jpg'
+import piura from './image/piura.jpg'
+import testimonio1 from './image/testimonio1.jpg'
+import facebook from './image/facebook.png'
+import instagram from './image/instagram.png'
+import youtube from './image/youtube.png'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
+     <div className='menu'> 
+      <div className='logo'>
+          <img src={imagen} className='logo' alt="traveling logo" />
+        <div className='titulo'>
+          <h1>TRAVELING</h1>
+      </div>
+      </div>
+
+      <div className='comp-menu'>      
+        <ul>
+          <li>Quienes somos</li><hr />
+          <li>Destinos</li><hr />
+          <li>Servicios</li><hr />
+          <li>Ofertas</li><hr />
+        </ul>
+      </div><br />
+
+      </div>
+      <div className="carrusel">
+
+
+        <img src={portada} className='carrusel' alt="portada" />
+
+
+
+      </div>
+      <hr />
+      <div className='section'>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <img src={cusco} className='izquierda'  alt="section" />
+        <h2>Cusco - Machupicchu </h2>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <div className='derecha'>
+        <img src={arequipa} className='derecha'  alt="section" />
+        <h2>Arequipa - Yanahuara</h2>
+        <img src={piura} className='derecha'  alt="section" />
+        <h2>Piura - Catacaos </h2>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      </div>
+      <div className='footer'>
+        <div className='fotos'>
+          <img src={testimonio1} className='test-img' alt="izquierda" />
+        </div>
+        <div className='testimonios'>
+        <h4>Testimonio de:</h4>
+          <h1>Bad Bunny</h1>
+          <p>Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. 
+            Dolor perspiciatis reiciendis 
+            id illo iure odio eius exercitationem, 
+            quisquam, aperiam molestiae maiores 
+            dolorem eaque. Atque doloribus 
+            aspernatur nemo rerum facere amet.</p>
+        </div>
+      </div>
+      <div className='pie-pag'>
+        <div className='nombre'> 
+        <h1>TRAVELING</h1>
+        </div>
+       <div className='iconos-redes'>
+        <img src={facebook} className='icono' alt="redes" />
+        <img src={instagram} className='icono' alt="redes" />
+        <img src={youtube} className='icono' alt="redes" />
+        </div>
+      </div>   
     </>
   )
 }
