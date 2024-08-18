@@ -31,12 +31,7 @@ function App() {
 
       </div>
       <div className="carrusel">
-
-
         <img src={portada} className='carrusel' alt="portada" />
-
-
-
       </div>
       <hr />
       <div className='section'>
@@ -72,9 +67,9 @@ function App() {
         <h1>TRAVELING</h1>
         </div>
        <div className='iconos-redes'>
-        <img src={facebook} className='icono' alt="redes" />
-        <img src={instagram} className='icono' alt="redes" />
-        <img src={youtube} className='icono' alt="redes" />
+        <img src={facebook} className='icono' alt="https://www.facebook.com/travelingandlivinginperu/" />
+        <img src={instagram} className='icono' alt="https://www.instagram.com/airtraveling.peru?igsh=OHFndXJzODhnYmI=" />
+        <img src={youtube} className='icono' alt="https://www.youtube.com/@PasaporteViajeroOk" />
         </div>
       </div>   
     </>
