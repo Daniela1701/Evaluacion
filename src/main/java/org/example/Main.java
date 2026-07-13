@@ -8,9 +8,12 @@ public class Main {
        //  Pregunta2 pregunta2 = new Pregunta2();
        //  pregunta2.Trimestre();
         //------------------------------------------------
-            Pregunta3 pregunta3 = new Pregunta3();
-            pregunta3.Numeros();
+        //    Pregunta3 pregunta3 = new Pregunta3();
+         //   pregunta3.Numeros();
 
+        //------------------------------------------------
+        Pregunta4 pregunta4 = new Pregunta4();
+        pregunta4.enteros();
         //------------------------------------------------
 
         //   Pregunta5 pregunta5 = new Pregunta5();
