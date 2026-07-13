@@ -30,9 +30,9 @@ public class Pregunta4 {
 
         for (int i = 0; i<=10 ; i++);
         int i;
-        if (numero [i] > mayor){
-            mayor = numero[i];
+//if (numero [i] > mayor){
+ //           mayor = numero[i];
         }
     }
-    System.out.println("Numero mayor" + mayor);
-}
+   // System.out.println("Numero mayor" + mayor);
+
